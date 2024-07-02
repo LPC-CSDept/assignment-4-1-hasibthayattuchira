@@ -14,6 +14,8 @@ def main():
         
         for i in range(ord(start), ord(end) + 1):
             result.append(chr(i))
+        print(*result)
+        break
         
 
     """
@@ -22,7 +24,7 @@ def main():
     ########################################
     """
 
-    print(*result)
+
 
     ########################################
     # Do not delete the return statement
